@@ -1,0 +1,28 @@
+From 6b301f67d7ab4776e269fa2958f014f232f5e86f Mon Sep 17 00:00:00 2001
+From: libing_li <libing.li@powercore.com.cn>
+Date: Thu, 27 Jun 2019 09:25:25 +0800
+Subject: [PATCH] add a patch
+
+---
+ first_patch | 1 +
+ test        | 1 +
+ 2 files changed, 2 insertions(+)
+ create mode 100644 first_patch
+
+diff --git a/first_patch b/first_patch
+new file mode 100644
+index 0000000..6f63ff2
+--- /dev/null
++++ b/first_patch
+@@ -0,0 +1 @@
++THis is a patch file
+diff --git a/test b/test
+index 163bf55..36d3883 100644
+--- a/test
++++ b/test
+@@ -1 +1,2 @@
+ add a 'teee' file
++add the first patch file
+-- 
+2.7.4
+
